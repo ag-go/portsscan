@@ -4,6 +4,9 @@ Written in Go with target WASM/WASI.<br>
 ## Demo:
 Watch the live demo on <a href="http://ports.sh/">ports.sh</a>
 
+## Explanation
+<a href="https://infosecwriteups.com/identify-website-users-by-client-port-scanning-using-webassembly-and-go-e9798b4aa05c">Port Scanning</a>
+
 ## QuickStart
 The WASM main function scans all the open ports in the specified range (see <code>main.go</code>), via 0.0.0.0 with no-cors fetch mode in Javascript level.<br>
 * Discovers any TCP open port available on the visiting host.<br>
